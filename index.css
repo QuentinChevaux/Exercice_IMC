@@ -33,7 +33,7 @@ label {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#poid, #taille, button{
+#poid, #taille, input{
     font-size: 30px;
     margin-bottom: 20px;
 }
