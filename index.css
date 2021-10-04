@@ -1,0 +1,53 @@
+body {
+	background-image: linear-gradient(to bottom right, #616C7A, #1A1D21);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	/* background-color: #363c44; */
+	color: #FFF4E1;
+	cursor: default;
+}
+h1 {
+	text-align: center; /* L'argument Justify est déconseillé car la lisibilité est horrible */
+	font-size: 50px;
+	font-family: impact;
+	text-decoration: underline overline;
+	text-decoration-color: grey;
+	text-shadow: 2px 2px #917D56; /* alignement horizontal ensuite vertical ensuite couleur */
+
+	margin-bottom: 60px;
+}
+
+.div_principale {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+    border: 2px solid;
+    padding: 10px;
+    margin-bottom: auto;
+}
+
+label {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#poid, #taille, button{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+::placeholder, input {
+    text-align: right;
+}
+
+#imc {
+    margin-top: 20px;
+    font-size: 30px;
+
+    border: 2px solid #FFF4E1;
+    padding-bottom: 15px;
+
+    color: black;
+}

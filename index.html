@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+    <title>Exercie IMC</title>
+</head>
+
+<body>
+
+    <h1>Calculateur IMC</h1>
+
+    <div class="div_principale">
+
+        <div>
+            <label for="poid">Entrez votre poid : </label> <input type="number" name="entrer_poid" id="poid" placeholder="Poid en kg"/>
+        </div>
+        
+        <div>
+            <label for="taille">Entrez votre taille : </label> <input type="number" name="entrer_taille" id="taille"  placeholder="Taille en m"/>
+        </div>
+
+        <div>
+            <button onclick="valider()">Valider</button>
+        </div>
+        
+        <div id="imc">
+            <p>Votre IMC est : </p>
+            <output id="output"></output>
+
+            <div>
+                <output id="type_imc"></output>
+            </div>
+        </div>
+
+
+    </div>
+
+    
+    
+</body>
+</html>
